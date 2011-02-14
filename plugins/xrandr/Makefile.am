@@ -33,11 +33,13 @@ uninstall-local:
 plugin_LTLIBRARIES = \
 	libxrandr.la
 
-libxrandr_la_SOURCES = 		\
-	gsd-xrandr-plugin.h	\
-	gsd-xrandr-plugin.c	\
-	gsd-xrandr-manager.h	\
-	gsd-xrandr-manager.c
+libxrandr_la_SOURCES = 			\
+	gsd-xrandr-plugin.h		\
+	gsd-xrandr-plugin.c		\
+	gsd-xrandr-manager.h		\
+	gsd-xrandr-manager.c		\
+	gsd-xrandr-output-group.h	\
+	gsd-xrandr-output-group.c
 
 libxrandr_la_CPPFLAGS =						\
 	-I$(top_srcdir)/gnome-settings-daemon			\
